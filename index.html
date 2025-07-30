@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop.co </title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <h1 class="logo">SHOP.CO</h1>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#top-selling">Top Selling</a></li>
+          <li><a href="#new-arrivals">New Arrivals</a></li>
+          <li><a href="#style">Style</a></li>
+        </ul>
+      </nav>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products...">
+      </div>
+
+      <div class="cart-icon">
+        <a href="cart.html">
+          🛒 <span id="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Find Clothes That Matches Your Style</h2>
+      <p>Browse through our diverse range of meticulously crafted garments...</p>
+      <button class="btn-primary">Shop Now</button>
+    </div>
+  </section>
+
+
+  <section class="stats">
+    <div class="stat">200+<br><span>International Brands</span></div>
+    <div class="stat">2,000+<br><span>High-Quality Products</span></div>
+    <div class="stat">30,000+<br><span>Happy Customers</span></div>
+  </section>
+
+
+  <section class="product-section" id="new-arrivals">
+    <h3>New Arrivals</h3>
+    <div id="product-list" class="product-grid"></div>
+  </section>
+
+
+  <section class="product-section" id="top-selling">
+    <h3>Top Selling</h3>
+    <div class="product-grid" id="top-selling-home"></div>
+  </section>
+
+
+  <section class="browse-style" id="style">
+    <h2>Browse by Dress Style</h2>
+    <div class="style-grid">
+      <div class="style-card">
+        <img src="/image/gym.jpg" alt="Casual">
+        <span>Casual</span>
+      </div>
+
+      <div class="style-card">
+        <img src="/image/formal2.jpg" alt="Formal">
+        <span>Formal</span>
+      </div>
+
+      <div class="style-card">
+        <img src="/image/cas 1.jpg" alt="Party">
+        <span>Party</span>
+      </div>
+
+      <div class="style-card">
+        <img src="/image/gym2.jpg" alt="Gym">
+        <span>Gym</span>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+
+      <div class="footer-section">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order Status</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#">🔵</a>
+          <a href="#">🟥</a>
+          <a href="#">🟣</a>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer-bottom">© 2025 Your E-commerce. All rights reserved.</p>
+  </footer>
+
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
